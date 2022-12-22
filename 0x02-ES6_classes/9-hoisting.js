@@ -1,7 +1,5 @@
-/* eslint max-classes-per-file: ["error", 2] */
 export class HolbertonClass {
   constructor(year, location) {
-    /* eslint no-underscore-dangle: ["error", { "allow": ["_year", "_location"] }] */
     this._year = year;
     this._location = location;
   }
