@@ -1,2 +1,9 @@
 # alx-frontend-javascript
-* 0x00. ES6 Basics
+
+* ES6 Basics
+
+* ES6_promise
+
+* ES6_classes
+
+* ES6 data manipulation
