@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-  let concatStr = '';
+  let String = '';
   const strArray = [];
 
   if (startString && typeof startString === 'string') {
@@ -8,7 +8,7 @@ export default function cleanSet(set, startString) {
         strArray.push(str.slice(startString.length));
       }
     }
-    concatStr = strArray.join('-');
+    String = strArray.join('-');
   }
-  return concatStr;
+  return String;
 }
