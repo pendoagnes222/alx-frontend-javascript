@@ -32,7 +32,8 @@ interface Directors extends Teacher {
     numberOfReports: number;
 }
 
-// Input
+
+// Extending teachers class
 const director1: Directors = {
     firstName: 'John',
     lastName: 'Doe',
@@ -50,6 +51,8 @@ console.log(director1);
 // location: "London"
 // numberOfReports: 17
 
+
+//printing teacher
 interface printTeacherFunction {
   firstName: string;
   lastName: string;
@@ -72,6 +75,7 @@ console.log(printTeacher(teacher));
 // J. Doe 
 
 
+//Writting a class
 interface StudentClassInterface {
   firstName: string;
   lastName: string;
