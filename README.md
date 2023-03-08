@@ -7,3 +7,5 @@
 * ES6_classes
 
 * ES6 data manipulation
+
+* Typescript
